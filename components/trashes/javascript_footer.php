@@ -19,18 +19,50 @@
 <footer>
 	<div class="container">
 		<div class="row">
-		
-			<div class="row">
-			<div class="col-md-6 col-sm-6 col-lg-6">
+			<div class="col-md-3 col-sm-3">
 				<div class="widget">
 					<h5 class="widgetheading">Nuestro Contacto</h5>
 					<address>
-					<strong>Ingeieria, Servicios Electricos y Electronicos</strong><br>
-					C. / Pantaleon Dalence Nº 1722.</address>
-					
+					<strong>Bootstrap company Inc</strong><br>
+					JC Main Road, Near Silnile tower<br>
+					 Pin-21542 NewYork US.</address>
+					<p>
+						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
+						<i class="icon-envelope-alt"></i> email@domainname.com
+					</p>
 				</div>
 			</div>
-			
+			<div class="col-md-3 col-sm-3">
+				<div class="widget">
+					<h5 class="widgetheading">Enlaces Rápidos</h5>
+					<ul class="link-list">
+						<li><a href="#">Últimos acontecimientos</a></li>
+						<li><a href="#">Términos y Condiciones</a></li>
+						<li><a href="#">Política de privacidad</a></li>
+						<li><a href="#">Carrera</a></li>
+						<li><a href="#">Contáctenos</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<div class="widget">
+					<h5 class="widgetheading">Últimas Publicaciones</h5>
+					<ul class="link-list">
+						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<div class="widget">
+					<h5 class="widgetheading">Noticias Recientes</h5>
+					<ul class="link-list">
+						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -40,7 +72,7 @@
 				<div class="col-lg-6">
 					<div class="copyright">
 						<p>
-						<span>&copy; Bootstrap Template 2017 All right reserved. Template By </span><a href="http://webthemez.com/free-bootstrap-templates/" target="_blank">WebThemez</a>
+							<span>&copy; Bootstrap Template 2017 All right reserved. Template By </span><a href="http://webthemez.com/free-bootstrap-templates/" target="_blank">WebThemez</a>
 						</p>
 					</div>
 				</div>

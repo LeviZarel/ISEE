@@ -24,31 +24,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel" align="center">Ingresar al sistema</h4>
+        <h4 class="modal-title" id="myModalLabel">Ingresar al sistema</h4>
       </div>
       <div class="modal-body">
         <form class="form-signin" role="form" action="login.php" method="post">
-					<div class="row">
-						<div class="icono-perzonalizado col-md-3 col-sm-3">
-							<i class="icono-perzonalizado fa fa-user"></i>
-						</div>
-						<div class="col-md-9 col-sm-9">	
-							<input type="text" class="form-control" placeholder="Usuario" required="" autofocus=""><br>
-							<input type="password" class="form-control" placeholder="Contraseña" required="">
-						</div>
-					</div>
-					<!-- <div class="row">
-						<div class="col-md-2 col-sm-2">
-							<h4 align="center"><i class="fa fa-unlock"></i></h4>
-						</div>
-						<div class="col-md-10 col-sm-10">		
-							<input class="form-control" placeholder="Contraseña" required="" type="password">
-						</div>	
-					</div> -->	
-							<label class="checkbox">
-								<input value="remember-me" type="checkbox"> Recordar contraseña
-							</label>
-							<button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+          <input class="form-control" placeholder="Usuario" required="" autofocus="" type="user">
+          <input class="form-control" placeholder="Contraseña" required="" type="password">
+          <label class="checkbox">
+            <input value="remember-me" type="checkbox"> Recordar contraseña
+          </label>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
         </form>
       </div>
       <!-- <div class="modal-footer">
@@ -64,8 +49,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12"> 	  
-					<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Lun - Sab 8.00 - 19.00. Domingo CERRADO</span></p>
-					<p class="pull-right"><i class="fa fa-phone"></i>Tel No. (+591) 4451195</p>
+					<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Lun - Sab 8.00 - 18.00. Domingo CERRADO</span></p>
+					<p class="pull-right"><i class="fa fa-phone"></i>Tel No. (+001) 123-456-789</p>
 				</div>
 			</div>
 		</div>
