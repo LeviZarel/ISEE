@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
 <title>ISE&E S.R.L.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
+<meta name="author" content="" />
 <!-- css -->
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
@@ -27,14 +29,14 @@
         <h4 class="modal-title" id="myModalLabel" align="center">Ingresar al sistema</h4>
       </div>
       <div class="modal-body">
-        <form class="form-signin" role="form" action="login.php" method="post">
+        <form class="form-signin" role="form" action="principal.php" method="post">
 					<div class="row">
 						<div class="icono-perzonalizado col-md-3 col-sm-3">
 							<i class="icono-perzonalizado fa fa-user"></i>
 						</div>
 						<div class="col-md-9 col-sm-9">	
-							<input type="text" class="form-control" placeholder="Usuario" required="" autofocus=""><br>
-							<input type="password" class="form-control" placeholder="Contraseña" required="">
+							<input type="text" class="form-control" placeholder="usuario" name="cuenta" required="" autofocus=""><br>
+							<input type="password" class="form-control" placeholder="Contraseña" name="clave" required="">
 						</div>
 					</div>
 					<!-- <div class="row">
