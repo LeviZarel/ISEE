@@ -1,5 +1,4 @@
 <body>
-
     <div id="wrapper">
         <!-- Navigation -->
         <?php
@@ -9,8 +8,10 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Usuario</h1>
-                    <p>Bienvenido al sistema: <strong><?php echo $usuario;?></strong><p>
+                    <h1 class="page-header">Modificar contraseña</h1>
+                    <p>
+                      <a href="indexT.php"><button type="button" class="btn btn-warning" ><i class="fa fa-times"></i> Cancelar</button></a>
+                    <p>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -127,5 +128,4 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="dist/js/sb-admin-2.js"></script>
-
 </body>

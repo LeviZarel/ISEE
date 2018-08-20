@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="indexT.php"><img src="../img/iseye.png" alt="logo" width="110px"/></a>
+                <a class="navbar-brand" href="indexT.php"><img src="../img/iseye2.png" alt="logo" width="110px"/></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -212,9 +212,9 @@
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Usuario</a>
+                        <li><a href="indexT.php"><i class="fa fa-user fa-fw"></i> Usuario</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Opciones</a>
+                        <li><a href="indexT.php?ide=100&&contra=1"><i class="fa fa-gear fa-fw"></i> Modificar contraseña</a>
                         </li>
                         <li class="divider"></li>
                         <li><a href="../cerrarsesion.php"><i class="fa fa-sign-out fa-fw"></i> Cerrar sesión</a>
