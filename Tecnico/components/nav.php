@@ -236,19 +236,19 @@
                             <a href="indexT.php"><i class="fa fa-user fa-fw"></i> Usuario</a>
                         </li>
                         <li>
-                            <a href="1.php"><i class="fa fa-times fa-fw"></i> Reportes de falla</a>
+                            <a href="indexT.php?ord=0&&ide=5"><i class="fa fa-times fa-fw"></i> Reportes de falla</a>
                         </li>
                         <li>
-                            <a href="2.php"><i class="fa fa-eye fa-fw"></i> Reportes de visita</a>
+                            <a href="indexT.php?ord=0&&ide=6"><i class="fa fa-eye fa-fw"></i> Reportes de visita</a>
                         </li>
                         <li>
-                            <a href="3.php"><i class="fa fa-wrench fa-fw"></i> Informes tecnicos</a>
+                            <a href="indexT.php?ord=0&&ide=7"><i class="fa fa-wrench fa-fw"></i> Informes tecnicos</a>
                         </li>
                         <li>
-                            <a href="4.php"><i class="fa fa-wechat fa-fw"></i> Foro tecnico</a>
+                            <a href="indexT.php?ide=20"><i class="fa fa-wechat fa-fw"></i> Foro tecnico</a>
                         </li>
                         <li>
-                            <a href="5.php"><i class="fa fa-book fa-fw"></i> Manual</a>
+                            <a href="javascript:abrirdoc('Manual_Usuario.pdf','700','500')"><i class="fa fa-book fa-fw"></i> Manual</a>
                         </li>
                         <!-- <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>

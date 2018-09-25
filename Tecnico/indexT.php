@@ -1,9 +1,4 @@
 <?php
-/* session_start();
-if( isset($_SESSION['IDUsuarioCliente']) ) :
-$iduc=$_SESSION['IDUsuarioCliente'];
-require('../conectarSQL.php');
-$link=conectarseSQL(); */
 session_start();
 if( isset($_SESSION['IDUsuarioCliente']) ) :
 $iduc=$_SESSION['IDUsuarioCliente'];

@@ -86,8 +86,8 @@ body {
   font-size: 33px;
   color: #fff;
 }
-.sidebar ul li a{
-  border-bottom: 1px solid #1d262b;
+.sidebar ul li a, .sidebar ul li a:focus{
+  /* border-bottom: 1px solid #1d262b; */
   background-color: #212c30;
   font-size: 16px;
   color: #b7c6cd;
@@ -104,6 +104,55 @@ body {
   background-color: #30373a;
   color: #c4d3da;
 }
+.fecha-per{
+  width: 90px;
+  padding: 5px;
+}
+/*mas */
+.btn-custom-a.btn-outline {
+  color: #FE0783;
+  border-color: #FE0783;
+}
+
+.btn-custom-a.btn-outline:hover {
+  color: white;
+  background-color: #FE0783;
+}
+.btn-custom-b.btn-outline {
+  color: #6D20C5;
+  border-color: #6D20C5;
+}
+.btn-custom-b.btn-outline:hover {
+  color: white;
+  background-color: #6D20C5;
+}
+
+.table > tbody > tr > td.custom-a,
+.table > tbody > tr > th.custom-a,
+.table > tbody > tr.custom-a > td,
+.table > tbody > tr.custom-a > th {
+  background-color: #f7e2ec;
+}
+.table-hover > tbody > tr > td.custom-a:hover,
+.table-hover > tbody > tr > th.custom-a:hover,
+.table-hover > tbody > tr.custom-a:hover > td,
+.table-hover > tbody > tr:hover > .custom-a,
+.table-hover > tbody > tr.custom-a:hover > th {
+  background-color: #f7cde2;
+}
+.table > tbody > tr > td.custom-b,
+.table > tbody > tr > th.custom-b,
+.table > tbody > tr.custom-b > td,
+.table > tbody > tr.custom-b > th {
+  background-color: #cbc9ce;
+}
+.table-hover > tbody > tr > td.custom-b:hover,
+.table-hover > tbody > tr > th.custom-b:hover,
+.table-hover > tbody > tr.custom-b:hover > td,
+.table-hover > tbody > tr:hover > .custom-b,
+.table-hover > tbody > tr.custom-b:hover > th {
+  background-color: #c2bbca;
+}
 /* hasta aqui */
 .sidebar .arrow {
   float: right;
@@ -116,13 +165,15 @@ body {
 }
 .sidebar .nav-second-level li,
 .sidebar .nav-third-level li {
-  border-bottom: none !important;
+  border-bottom: none !important;  
 }
 .sidebar .nav-second-level li a {
   padding-left: 37px;
+  background-color: #2B3A40;
 }
 .sidebar .nav-third-level li a {
   padding-left: 52px;
+  background-color: #2B3A40;
 }
 @media (min-width: 768px) {
   .sidebar {
@@ -228,7 +279,7 @@ table.dataTable thead .sorting:after {
 .btn-circle {
   width: 30px;
   height: 30px;
-  padding: 6px 0;
+  padding: 6px;
   border-radius: 15px;
   text-align: center;
   font-size: 12px;
@@ -237,9 +288,9 @@ table.dataTable thead .sorting:after {
 .btn-circle.btn-lg {
   width: 50px;
   height: 50px;
-  padding: 10px 16px;
+  padding: 5px 2px;
   border-radius: 25px;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1.33;
 }
 .btn-circle.btn-xl {
